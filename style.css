@@ -1,0 +1,55 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 700px;
+    height: 600px;
+    background-image: url('istockphoto.jpg') ;
+    margin: 0 auto;
+    color: white;
+    background-repeat:inherit;
+    
+}
+.logos{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+.box{
+    width: 100%;
+}
+.box .left-box{
+    float: left;
+    margin-left: 50px;
+    padding: 30px;
+    list-style: none;
+
+}
+.box .left-box .left-mony {
+    float: right;
+}
+.box .right-box .right-mony {
+    float: right;
+}
+
+.box .right-box{
+    float: right;
+    margin-right: 50px;
+    padding: 30px;
+    list-style: none;
+}
+.clear-div{
+    clear: both;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p{
+    font-size: 10px;
+}
